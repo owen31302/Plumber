@@ -40,7 +40,9 @@ module.exports = function (app) {
         var worker = {
             "name" : "owen",
             "occupation": "NA",
-            "ranking" : "3"
+            "ranking" : "3",
+            "lat" : "37.354107",
+            "log" : "-121.955238"
         };
         res.send(worker);
     });

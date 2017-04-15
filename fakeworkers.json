@@ -2,37 +2,217 @@
   {
     "firstname": "John",
     "lastname": "Doe",
-    "licencenum": "00123",
+    "licencenum": "00001",
     "phone": "6692650012",
     "review": "He is cool!",
     "rating": 4,
-    "skill": "plumb"
+    "skill": "toilet"
   },
   {
     "firstname": "Barry",
     "lastname": "Lee",
-    "licencenum": "09765",
+    "licencenum": "00002",
     "phone": "6692643012",
-    "review": "He is  not cool!",
+    "review": "He arrives late.",
     "rating": 2,
-    "skill": "roof"
+    "skill": "toilet"
   },
   {
     "firstname": "Mary",
     "lastname": "Kim",
-    "licencenum": "09864",
+    "licencenum": "00003",
     "phone": "4392650012",
-    "review": "She is awesome!",
+    "review": "She finish very quick.",
     "rating": 5,
-    "skill": "tube"
+    "skill": "faucet"
   },
   {
     "firstname": "Amy",
     "lastname": "Chris",
-    "licencenum": "78544",
+    "licencenum": "00004",
     "phone": "8762650012",
     "review": "She arrives on time.",
     "rating": 4,
-    "skill": "plumb"
+    "skill": "faucet"
+  },
+  {
+    "firstname": "Miyoko",
+    "lastname": "Nealon",
+    "licencenum": "00005",
+    "phone": "7797711850",
+    "review": "Her charge is reasonable, would recommend.",
+    "rating": 4,
+    "skill": "water heater"
+  },
+  {
+    "firstname": "Jannet",
+    "lastname": "Hammill",
+    "licencenum": "00006",
+    "phone": "6017719992",
+    "review": "He make my home dirty and take more time than he told me.",
+    "rating": 2,
+    "skill": "water heater"
+  },
+  {
+    "firstname": "Mary",
+    "lastname": "Kim",
+    "licencenum": "00007",
+    "phone": "3407136886",
+    "review": "She is awesome!",
+    "rating": 5,
+    "skill": "shower head"
+  },
+  {
+    "firstname": "Buford",
+    "lastname": "Bramer",
+    "licencenum": "00008",
+    "phone": "5854727717",
+    "review": "Nothing special.",
+    "rating": 3,
+    "skill": "shower head"
+  },
+  {
+  "firstname": "Jeffrey",
+  "lastname": "Jessup",
+  "licencenum": "00009",
+  "phone": "5718149916",
+  "review": "Not bad, would call again.",
+  "rating": 4,
+  "skill": "bathtub"
+  },
+  {
+    "firstname": "Vincenzo",
+    "lastname": "Melody",
+    "licencenum": "00010",
+    "phone": "6142205623",
+    "review": "Great service!",
+    "rating": 5,
+    "skill": "bathtub"
+  },
+  {
+    "firstname": "Tom",
+    "lastname": "Tseng",
+    "licencenum": "00011",
+    "phone": "3369535081",
+    "review": "He didn't fix the problem.",
+    "rating": 1,
+    "skill": "drain"
+  },
+  {
+    "firstname": "Byron",
+    "lastname": "Kleiman",
+    "licencenum": "00012",
+    "phone": "4252488027",
+    "review": "He's late, but he get the job done.",
+    "rating": 2,
+    "skill": "drain"
+  },
+  {
+    "firstname": "Dian",
+    "lastname": "Shanks",
+    "licencenum": "00013",
+    "phone": "3075550174",
+    "review": "He has great skill!",
+    "rating": 5,
+    "skill": "toilet"
+  },
+  {
+    "firstname": "Charisse",
+    "lastname": "Grogan",
+    "licencenum": "00014",
+    "phone": "3075550155",
+    "review": "A very friendly and professional person",
+    "rating": 5,
+    "skill": "toilet"
+  },
+  {
+    "firstname": "Bryon",
+    "lastname": "Adamek",
+    "licencenum": "00015",
+    "phone": "8085550106",
+    "review": "Nice job!",
+    "rating": 4,
+    "skill": "drain"
+  },
+  {
+    "firstname": "Marybeth",
+    "lastname": "Fregoso",
+    "licencenum": "00016",
+    "phone": "8085550159",
+    "review": "He spent little time to fix it!",
+    "rating": 4,
+    "skill": "drain"
+  },
+  {
+    "firstname": "Marhta",
+    "lastname": "Granato",
+    "licencenum": "00017",
+    "phone": "6145550106",
+    "review": "Fair job",
+    "rating": 3,
+    "skill": "faucet"
+  },
+  {
+    "firstname": "Amal",
+    "lastname": "Halstead",
+    "licencenum": "00018",
+    "phone": "6145550118",
+    "review": "Well.....just fine",
+    "rating": 3,
+    "skill": "faucet"
+  },
+  {
+    "firstname": "Royal",
+    "lastname": "Theroux",
+    "licencenum": "00019",
+    "phone": "6015550173",
+    "review": "bad quality work",
+    "rating": 2,
+    "skill": "water heater"
+  },
+  {
+    "firstname": "Mia",
+    "lastname": "Shiver",
+    "licencenum": "00020",
+    "phone": "6015550148",
+    "review": "A rude guy",
+    "rating": 2,
+    "skill": "water heater"
+  },
+  {
+    "firstname": "Bee",
+    "lastname": "Rayl",
+    "licencenum": "00021",
+    "phone": "5025550187",
+    "review": "Is this guy a plumber",
+    "rating": 1,
+    "skill": "shower head"
+  },
+  {
+    "firstname": "Marguerita",
+    "lastname": "Kulp",
+    "licencenum": "00022",
+    "phone": "5025550108",
+    "review": "His licence should be invalidated",
+    "rating": 1,
+    "skill": "shower head"
+  },
+  {
+    "firstname": "Glenna",
+    "lastname": "Deatherage",
+    "licencenum": "00023",
+    "phone": "3605550119",
+    "review": "What a nice guy!",
+    "rating": 5,
+    "skill": "bathtub"
+  },
+  {
+    "firstname": "Wanetta",
+    "lastname": "Callicoat",
+    "licencenum": "00024",
+    "phone": "3605550164",
+    "review": "I can do even better!",
+    "rating": 1,
+    "skill": "bathtub"
   }
 ]

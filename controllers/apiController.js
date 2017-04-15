@@ -43,9 +43,9 @@ module.exports = function (app) {
     app.get( '/api/worker', function (req, res) {
 
         var worker = {
-            "name" : "",
-            "occupation": "",
-            "ranking" : "",
+            "name" : "The Rock",
+            "occupation": "plumber",
+            "ranking" : "4.8",
             "lat" : "37.354107",
             "log" : "-121.955238"
         };

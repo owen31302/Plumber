@@ -1,4 +1,9 @@
 var mongoose = require('mongoose');
+// var assert = require('assert');
+
+
+mongoose.Promise = global.Promise;
+// assert.equal(query.exec().constructor, global.Promise);
 
 mongoose.connect('mongodb://test:test@ds153710.mlab.com:53710/bornco_hackthon');
 
@@ -21,28 +26,30 @@ db.once('open', function() {
 
 	var Worker = mongoose.model('Worker', werkerSchema);
 
-	// var john = Worker({
-     //    firstname: 'John',
-     //    lastname: 'Doe',
-     //    licencenum: '00123',
-     //    phone: '6692650012',
-     //    review: 'He is cool!',
-     //    rating: 4,
-     //    skill:'plumb'
-	// });
+    // var john = Worker({
+    //     firstname: 'Mary',
+    //     lastname: 'Lol',
+    //     licencenum: '00345',
+    //     phone: '6692650099',
+    //     review: 'She is awesome!',
+    //     rating: 5,
+    //     skill:'roof'
+    // });
     //
-	// // save the user
-	// john.save(function(err) {
-	//   if (err) throw err;
-    //
-	//   console.log('worker saved!');
-	// });
+    // // save the user
+    // john.save(function (err) {
+    //     if (err) return console.error(err);
+    //     console.log('worker saved!');
+    // });
 
 	// get all the worker
-    Worker.find(function(err, workers) {
-		if (err) throw err;
+    // Worker.find(function(err, workers) {
+	// 	if (err) throw err;
+    //
+	// 	// object of all the users
+	// 	console.log(workers);
+	// });
 
-		// object of all the users
-		console.log(workers);
-	});
+    // find one worker
+
 });

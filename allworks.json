@@ -1,0 +1,34 @@
+[
+  {
+    "work": "repair toilet",
+    "skill": "toilet"
+  },
+  {
+    "work": "unclogging a toilet",
+    "skill": "toilet"
+  },
+  {
+    "work": "unclogging a drain",
+    "skill": "drain"
+  },
+  {
+    "work": "repair faucet",
+    "skill": "faucet"
+  },
+  {
+    "work": "repair water heater",
+    "skill": "water heater"
+  },
+  {
+    "work": "repair shower head",
+    "skill": "shower head"
+  },
+  {
+    "work": "install bathtub",
+    "skill": "bathtub"
+  },
+  {
+    "work": "repair bathtub",
+    "skill": "bathtub"
+  }
+]

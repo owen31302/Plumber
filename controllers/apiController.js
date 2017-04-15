@@ -7,10 +7,16 @@ var Work = require('../models/workModel');
 module.exports = function (app) {
 
     app.get('/api/', function (req, res) {
-        Worker.find({ "firstname": "John" }, function(err, worker) {
+
+        Worker.find({}, function(err, worker) {
             if (err) throw err;
             res.send(worker);
         });
+
+        /*Worker.find({ "firstname": "John" }, function(err, worker) {
+            if (err) throw err;
+            res.send(worker);
+        });*/
     });
 
     app.get('/api/works/', function (req, res) {
@@ -20,13 +26,23 @@ module.exports = function (app) {
     });
 
     app.get('/api/work/:problem/:zipcode', function (req, res) {
-        console.log(req.params.problem);
-        console.log(req.params.zipcode);
-        res.send({1:1});
+        //console.log(req.params.problem);
+        //console.log(req.params.zipcode);
+        var result = {
+            "cost" : "500",
+            "hr" : "1",
+            "min" : "33"
+        }
+        res.send(result);
     });
 
-    app.post( '/api/cnt', function (req, res) {
-
+    app.get( '/api/worker', function (req, res) {
+        var worker = {
+            "name" : "owen",
+            "occupation": "NA",
+            "ranking" : "3"
+        };
+        res.send(worker);
     });
 }
 

@@ -26,6 +26,7 @@ module.exports = function (app) {
     });
 
     app.get('/api/work/:problem/:zipcode', function (req, res) {
+        console.log(req.params);
         console.log(req.params.problem);
         // console.log(req.params.zipcode);
 

@@ -3,8 +3,9 @@ body{
 }
 .texts{
     text-align: center;
-    color: gray;
+    color: white;
     text-decoration: underline;
+    background:black;
 }
 .title{
     text-align: center;
@@ -19,11 +20,27 @@ body{
 }
 .selectoryeah{
     position: absolute;
-    left: 180px;
+    left: 130px;
+    background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+    height: 29px;
+    overflow: hidden;
+    width: 240px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background-color: white;
 }
 .zipyeah{
     position: absolute;
-    left: 170px;
+    left: 130px;
+    background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+    height: 29px;
+    overflow: hidden;
+    width: 240px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background-color: white;
 }
 .cutebutton {
     display: inline-block;
@@ -39,6 +56,7 @@ body{
     cursor: pointer;
     position: absolute;
     left: 150px;
+    bottom: 100px;
 }
 
 .cutebutton span {

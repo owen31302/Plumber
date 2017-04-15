@@ -15,23 +15,23 @@
     "phone": "6692643012",
     "review": "He is  not cool!",
     "rating": 2,
-    "skill": "plumb"
+    "skill": "roof"
   },
   {
     "firstname": "Mary",
     "lastname": "Kim",
-    "licencenum": "00123",
-    "phone": "6692650012",
-    "review": "He is cool!",
-    "rating": 4,
-    "skill": "plumb"
+    "licencenum": "09864",
+    "phone": "4392650012",
+    "review": "She is awesome!",
+    "rating": 5,
+    "skill": "tube"
   },
   {
-    "firstname": "John",
-    "lastname": "Doe",
-    "licencenum": "00123",
-    "phone": "6692650012",
-    "review": "He is cool!",
+    "firstname": "Amy",
+    "lastname": "Chris",
+    "licencenum": "78544",
+    "phone": "8762650012",
+    "review": "She arrives on time.",
     "rating": 4,
     "skill": "plumb"
   }

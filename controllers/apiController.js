@@ -12,8 +12,9 @@ module.exports = function (app) {
         });
     });
 
-    app.get('/api/:id/:name', function (req, res) {
-
+    app.get('/api/works/', function (req, res) {
+        var works = ["ok"];
+        res.send(works);
     });
 
     app.put('/api/:id/:val', function (req, res) {

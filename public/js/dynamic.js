@@ -93,8 +93,8 @@ $(document).ready(function(){
     $.get("/api/works/", function(data, status){
         var j;
         for(j = 0; j < data.length; j++){
-            $("#selectscr").find('opbody').append('<option> ok </option>');
-            console.log(data[j]);
+         $('#selectscr').append($("<option></option>").attr("value",data[0]).text(data[0]));
+
         }
     })
 });

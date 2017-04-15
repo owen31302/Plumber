@@ -1,13 +1,22 @@
 body{
     background: url("http://www.ufoparamotors.com/wp-content/uploads/2015/01/blur-clouds.jpg");
 }
+.titles{
+    text-align: center;
+    color: black;
+    font-size: 200%;
+}
 .allins{
-    margin-left: 20px;
+    text-align: center;
     color: red;
 }
 #map {
     height: 400px;
     width: 100%;
+}
+.imageyo{
+    display: block;
+    margin:0 auto;
 }
 .button {
     display: inline-block;

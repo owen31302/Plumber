@@ -19,6 +19,7 @@ body{
 .textarea{
     width:400px;
     height: 200px;
+    text-align: start;
 }
 
 .thankyou {

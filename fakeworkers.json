@@ -3,7 +3,7 @@
     "firstname": "John",
     "lastname": "Doe",
     "licencenum": "00001",
-    "phone": "6692650012",
+    "phone": "6694650012",
     "review": "He is cool!",
     "rating": 4,
     "skill": "toilet"
@@ -42,7 +42,7 @@
     "phone": "7797711850",
     "review": "Her charge is reasonable, would recommend.",
     "rating": 4,
-    "skill": "water heater"
+    "skill": "sink"
   },
   {
     "firstname": "Jannet",
@@ -51,7 +51,7 @@
     "phone": "6017719992",
     "review": "He make my home dirty and take more time than he told me.",
     "rating": 2,
-    "skill": "water heater"
+    "skill": "sink"
   },
   {
     "firstname": "Mary",
@@ -168,7 +168,7 @@
     "phone": "6015550173",
     "review": "bad quality work",
     "rating": 2,
-    "skill": "water heater"
+    "skill": "sink"
   },
   {
     "firstname": "Mia",
@@ -177,7 +177,7 @@
     "phone": "6015550148",
     "review": "A rude guy",
     "rating": 2,
-    "skill": "water heater"
+    "skill": "sink"
   },
   {
     "firstname": "Bee",

@@ -45,7 +45,7 @@ db.once('open', function() {
     //     console.log(workers);
     // });
 
-    Work.find({}, 'work', function (err, docs) {
+    Work.findOne({ 'work': 'repair shower head' }, function (err, docs) {
         console.log(docs);
     });
 

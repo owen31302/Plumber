@@ -88,3 +88,13 @@ $(document).on('change', '[type=checkbox]', function () {
         });
     }
 });
+
+$(document).ready(function(){
+    $.get("/api/works/", function(data, status){
+        var j;
+        for(j = 0; j < data.length; j++){
+            $("#selectscr").find('opbody').append('<option> ok </option>');
+            console.log(data[j]);
+        }
+    })
+});

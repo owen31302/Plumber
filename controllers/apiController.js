@@ -30,12 +30,12 @@ module.exports = function (app) {
         // console.log(req.params.zipcode);
 
         Work.findOne({ 'work': req.params.problem }, function (err, docs) {
-            // console.log(docs.time);
+            console.log(docs);
         });
 
         var result = {
-            "cost" : docs.cost,
-            "time" : docs.time
+            // "cost" : docs.cost,
+            // "time" : docs.time
         };
         res.send(result);
     });

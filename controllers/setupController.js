@@ -3,7 +3,7 @@
  */
 var Workers = require('../models/workerModel');
 
-model.exports = function (app) {
+module.exports = function (app) {
 
     app.get('/api/setupWorkers', function(req, res) {
         // seed database

@@ -26,16 +26,17 @@ module.exports = function (app) {
     });
 
     app.get('/api/work/:problem/:zipcode', function (req, res) {
-        // console.log(req.params.problem);
+        console.log(req.params.problem);
         // console.log(req.params.zipcode);
 
         Work.findOne({ 'work': req.params.problem }, function (err, docs) {
-            console.log(docs);
+            // console.log(docs.time);
         });
-
         var result = {
             // "cost" : docs.cost,
             // "time" : docs.time
+            "cost" : "20",
+            "time" : "1"
         };
         res.send(result);
     });

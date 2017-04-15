@@ -15,7 +15,12 @@ $(document).ready(function(){
     })
 
     $("#submit").click(function(){
-        var query = "/api/work/" + $("#selectscr").val()+'/'+$("#zipcode").val();
+        var selecval = document.getElementById('selectscr').value;
+        var zipval = document.getElementById('zipcode').value;
+        console.log(selecval,zipval);
+        // var query = "/api/work/" + $("#selectscr").val()+'/'+$("#zipcode").val();
+        var query = "/api/work/" + selecval +'/'+zipval;
+        console.log(query);
         $.get( query , function( data , status){
             console.log(data);
             console.log(status);

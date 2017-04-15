@@ -26,21 +26,27 @@ module.exports = function (app) {
     });
 
     app.get('/api/work/:problem/:zipcode', function (req, res) {
-        //console.log(req.params.problem);
-        //console.log(req.params.zipcode);
+        console.log(req.params.problem);
+        // console.log(req.params.problem["work"]);
+        // console.log(req.params.zipcode);
+
+        // Work.findOne({ 'work': req.params.problem.work }, function (err, docs) {
+        //     console.log(docs);
+        // });
+
         var result = {
             "cost" : "500",
-            "hr" : "1",
-            "min" : "33"
+            "time" : "1"
         }
         res.send(result);
     });
 
     app.get( '/api/worker', function (req, res) {
+
         var worker = {
-            "name" : "The Rock",
-            "occupation": "plumber",
-            "ranking" : "3",
+            "name" : "",
+            "occupation": "",
+            "ranking" : "",
             "lat" : "37.354107",
             "log" : "-121.955238"
         };

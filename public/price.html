@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>PriceEstimate</title>
     <link rel="stylesheet" type="text/css" href="price.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/pricepage.js" ></script>
+
 </head>
 <body>
 <div class="container">
@@ -15,17 +18,23 @@
     </h1>
     <br>
     <h2>
-        (# of contractors) can help you now !
+        We found someone can help you now !
     </h2>
     <div class="box1">
     <p>
-        Estimate price: (generate price according to location of something)
+        Estimate price:
+        <p id="cost">
+
+    </p>
     </p>
     <p>
-        Estimate waiting time: (generate the time based on the distance)
+        Estimate waiting time:
+        <p id="waitss">
+
+    </p>
     </p>
     <p>
-        Estimate finish time: (generate!)
+        Estimate spending time: <p id="hr"></p>hr<p id="min"></p>min
     </p>
     </div>
     <button class="button" onclick="location.href='./pay.html';">

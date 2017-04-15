@@ -36,22 +36,36 @@ module.exports = function (app) {
         var result = {
             "cost" : docs.cost,
             "time" : docs.time
-        }
+        };
         res.send(result);
     });
 
     app.get( '/api/worker', function (req, res) {
 
+
+        Worker.count().exec(function (err, count) {
+
+            // Get a random entry
+            var random = Math.floor(Math.random() * count);
+
+            // Again query all users but only fetch one offset by our random #
+            Worker.findOne().skip(random).exec(
+                function (err, docs) {
+                    // Tada! random user
+                    console.log(docs)
+                })
+        });
+
         var worker = {
-            "name" : "The Rock",
-            "occupation": "plumber",
-            "ranking" : "4.8",
+            "name" : docs.firstname,
+            "skill":  docs.skill,
+            "rating" : docs.rating,
             "lat" : "37.354107",
             "log" : "-121.955238"
         };
         res.send(worker);
     });
-}
+};
 
 
 

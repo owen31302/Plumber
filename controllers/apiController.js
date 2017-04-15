@@ -35,6 +35,7 @@ module.exports = function (app) {
         // });
 
         var result = {
+            "theselection" : "123",
             "cost" : "500",
             "time" : "1"
         }

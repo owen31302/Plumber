@@ -12,19 +12,7 @@ db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {
 	// we're connected!
 
-	var Schema = mongoose.Schema;
-
-	var werkerSchema = new Schema({
-        firstname: String,
-		lastname: String,
-		licencenum: String,
-        phone: String,
-        review: String,
-        rating: { type: Number, min: 1, max: 5 },
-        skill:String
-	});
-
-	var Worker = mongoose.model('Worker', werkerSchema);
+	var Work = require('./models/workModel');
 
     // var john = Worker({
     //     firstname: 'Mary',
@@ -51,10 +39,15 @@ db.once('open', function() {
 	// });
 
     // find special worker
-    Worker.find({ skill: 'roof' }, function(err, workers) {
-        if (err) throw err;
-        // object of fitted users
-        console.log(workers);
+    // Worker.find({ skill: 'roof' }, function(err, workers) {
+    //     if (err) throw err;
+    //     // object of fitted users
+    //     console.log(workers);
+    // });
+
+    Work.find({}, 'work', function (err, docs) {
+        console.log(docs);
     });
+
 
 });

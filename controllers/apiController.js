@@ -2,6 +2,7 @@
  * Created by owen on 4/1/17.
  */
 var Worker = require('../models/workerModel');
+var Work = require('../models/workModel');
 
 module.exports = function (app) {
 
@@ -13,12 +14,15 @@ module.exports = function (app) {
     });
 
     app.get('/api/works/', function (req, res) {
-        var works = ["ok"];
-        res.send(works);
+        Work.find({}, 'work', function (err, docs) {
+            res.send(docs);
+        });
     });
 
-    app.put('/api/:id/:val', function (req, res) {
-
+    app.get('/api/work/:problem/:zipcode', function (req, res) {
+        console.log(req.params.problem);
+        console.log(req.params.zipcode);
+        res.send({1:1});
     });
 
     app.post( '/api/cnt', function (req, res) {

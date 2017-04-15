@@ -1,8 +1,30 @@
-.texts{
-    margin:30px;
-    color: aqua;
+body{
+    background: url("http://www.ufoparamotors.com/wp-content/uploads/2015/01/blur-clouds.jpg");
 }
-
+.texts{
+    text-align: center;
+    color: gray;
+    text-decoration: underline;
+}
+.title{
+    text-align: center;
+    color: darkgoldenrod;
+}
+.container{
+    width:500px;
+    height: 500px;
+    margin: 0 auto;
+    background: url("http://i.imgur.com/u4N3wpJ.jpg");
+    position: relative;
+}
+.selectoryeah{
+    position: absolute;
+    left: 180px;
+}
+.zipyeah{
+    position: absolute;
+    left: 170px;
+}
 .cutebutton {
     display: inline-block;
     border-radius: 4px;
@@ -15,8 +37,8 @@
     width: 200px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
-    margin-left: 37%;
+    position: absolute;
+    left: 150px;
 }
 
 .cutebutton span {

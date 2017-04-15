@@ -13,11 +13,12 @@ module.exports = function (app) {
     });
 
     app.get('/api/works/', function (req, res) {
-        var works = ["ok"];
-        res.send(works);
+        Work.find({}, 'work', function (err, docs) {
+            res.send(docs);
+        });
     });
 
-    app.put('/api/:id/:val', function (req, res) {
+    app.put('/api/work/:val', function (req, res) {
 
     });
 

@@ -26,9 +26,10 @@ module.exports = function (app) {
     });
 
     app.get('/api/work/:problem/:zipcode', function (req, res) {
-        //console.log(req.params.problem);
-        //console.log(req.params.zipcode);
+        console.log(req.params.problem);
+        var pp = req.params.problem;
         var result = {
+            "theselection" : "123",
             "cost" : "500",
             "hr" : "1",
             "min" : "33"

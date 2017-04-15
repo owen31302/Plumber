@@ -17,6 +17,8 @@ $(document).ready(function(){
     $("#submit").click(function(){
         var query = "/api/work/" + $("#selectscr").val()+'/'+$("#zipcode").val();
         $.get( query , function( data , status){
+            console.log(data);
+            console.log(status);
             console.log('get success');
         })
     });

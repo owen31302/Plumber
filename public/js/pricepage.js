@@ -7,7 +7,7 @@ $(document).ready(function(){
         var i ;
         document.getElementById("waitss").innerHTML = Math.floor((Math.random()*50))+"min";
 
-        for(i = 0; i < 3; i++){
+        for(i = 0; i < 4; i++){
             $.each(data,function (key,value) {
 
                 document.getElementById(key).innerHTML= value;

@@ -50,6 +50,11 @@ db.once('open', function() {
 	// 	console.log(workers);
 	// });
 
-    // find one worker
+    // find special worker
+    Worker.find({ skill: 'roof' }, function(err, workers) {
+        if (err) throw err;
+        // object of fitted users
+        console.log(workers);
+    });
 
 });

@@ -17,35 +17,25 @@ db.once('open', function() {
         review: String,
         rating: { type: Number, min: 1, max: 5 },
         skill:String
-
 	});
 
 	var Worker = mongoose.model('Worker', werkerSchema);
 
-	// var john = Person({
-	//   firstname: 'John',
-	//   lastname: 'Doe',
-	//   address: '555 Main St.'
+	// var john = Worker({
+     //    firstname: 'John',
+     //    lastname: 'Doe',
+     //    licencenum: '00123',
+     //    phone: '6692650012',
+     //    review: 'He is cool!',
+     //    rating: 4,
+     //    skill:'plumb'
 	// });
-	//
+    //
 	// // save the user
 	// john.save(function(err) {
 	//   if (err) throw err;
-	//
-	//   console.log('person saved!');
-	// });
-	//
-	// var jane = Person({
-	//   firstname: 'Jane',
-	//   lastname: 'Doe',
-	//   address: '555 Main St.'
-	// });
-	//
-	// // save the user
-	// jane.save(function(err) {
-	//   if (err) throw err;
-	//
-	//   console.log('person saved!');
+    //
+	//   console.log('worker saved!');
 	// });
 
 	// get all the worker

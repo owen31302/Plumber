@@ -1,34 +1,50 @@
 [
   {
     "work": "repair toilet",
-    "skill": "toilet"
+    "skill": "toilet",
+    "time": "2hr",
+    "cost": "$150-210"
   },
   {
     "work": "unclogging a toilet",
-    "skill": "toilet"
+    "skill": "toilet",
+    "time": "1.5hr",
+    "cost": "$100-150"
   },
   {
     "work": "unclogging a drain",
-    "skill": "drain"
+    "skill": "drain",
+    "time": "2hr",
+    "cost": "$70-200"
   },
   {
     "work": "repair faucet",
-    "skill": "faucet"
+    "skill": "faucet",
+    "time": "0.5hr",
+    "cost": "$30"
   },
   {
     "work": "repair water heater",
-    "skill": "water heater"
+    "skill": "water heater",
+    "time": "4hr",
+    "cost": "$800-1500"
   },
   {
     "work": "repair shower head",
-    "skill": "shower head"
+    "skill": "shower head",
+    "time": "0.5hr",
+    "cost": "$50"
   },
   {
     "work": "install bathtub",
-    "skill": "bathtub"
+    "skill": "bathtub",
+    "time": "4hr",
+    "cost": "$1200-1600"
   },
   {
     "work": "repair bathtub",
-    "skill": "bathtub"
+    "skill": "bathtub",
+    "time": "3hr",
+    "cost": "$800-1100"
   }
 ]

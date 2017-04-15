@@ -18,8 +18,9 @@ module.exports = function (app) {
         });
     });
 
-    app.put('/api/work/:val', function (req, res) {
-
+    app.put('/api/work/:problem/:zipcode', function (req, res) {
+        console.log(req.params.problem);
+        console.log(req.params.zipcode);
     });
 
     app.post( '/api/cnt', function (req, res) {

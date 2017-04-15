@@ -1,21 +1,42 @@
+
+
 body{
+
+  padding: 10px;
+  margin: auto;
     background: url("http://www.ufoparamotors.com/wp-content/uploads/2015/01/blur-clouds.jpg");
+
 }
+
+
 .texts{
-    text-align: center;
-    color: white;
-    text-decoration: underline;
-    background:black;
+    text-align: left;
+    border-style: dashed;
+    border-color: #dfbf9f;
+    margin: 20px;
+
+
+    color: #e6f5ff;
+    line-height: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
 }
+
 .title{
-    text-align: center;
-    color: darkgoldenrod;
+text-align: center;
+  position: relative;
+    color: #3973ac;
+    font-family: 'Raleway', sans-serif;
+
 }
 .container{
+    padding: 10px;
     width:500px;
-    height: 500px;
+    height: 700px;
     margin: 0 auto;
-    background: url("http://i.imgur.com/u4N3wpJ.jpg");
+    //background: url("http://i.imgur.com/u4N3wpJ.jpg");
+    background-color: #3973ac;
     position: relative;
 }
 .selectoryeah{

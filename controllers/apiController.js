@@ -38,8 +38,8 @@ module.exports = function (app) {
 
     app.get( '/api/worker', function (req, res) {
         var worker = {
-            "name" : "owen",
-            "occupation": "NA",
+            "name" : "The Rock",
+            "occupation": "plumber",
             "ranking" : "3",
             "lat" : "37.354107",
             "log" : "-121.955238"

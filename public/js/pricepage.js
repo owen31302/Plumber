@@ -9,7 +9,7 @@ $(document).ready(function(){
 
         for(i = 0; i < 3; i++){
             $.each(data,function (key,value) {
-                console.log('yesyesyes');
+
                 document.getElementById(key).innerHTML= value;
             });
         }

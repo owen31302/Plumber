@@ -1,4 +1,4 @@
-# TripPlanner
+# Plumblem
 
 Submitted by: Yu-Cheng Lin
 
@@ -13,6 +13,8 @@ The costumer will:
 
 ● Pay and receive instant help.
 
+<img src='https://raw.githubusercontent.com/owen31302/Plumber/master/presentation/Screen%20Shot%202017-04-15%20at%2021.22.34.png' title='Plumblem' width='' alt='Plumblem' />
+
 ## Web stack
 (1) Tools: Intellij
 
@@ -25,6 +27,8 @@ The costumer will:
 (5) Query testing tool: Postman
 
 (6) Hosting: AWS
+
+<img src='https://raw.githubusercontent.com/owen31302/Plumber/master/presentation/Screen%20Shot%202017-04-15%20at%2021.18.52.png' title='stack' width='' alt='stack' />
 
 ## License
 

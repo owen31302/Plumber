@@ -13,7 +13,7 @@ The costumer will:
 
 ● Pay and receive instant help.
 
-<img src='https://raw.githubusercontent.com/owen31302/Plumber/master/presentation/Screen%20Shot%202017-04-15%20at%2021.22.34.png' title='Plumblem' width='48' alt='Plumblem' />
+<img src='https://raw.githubusercontent.com/owen31302/Plumber/master/presentation/Screen%20Shot%202017-04-15%20at%2021.22.34.png' title='Plumblem' width='200px' alt='Plumblem' />
 
 ## Web stack
 (1) Tools: Intellij

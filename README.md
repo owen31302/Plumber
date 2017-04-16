@@ -1,6 +1,7 @@
 # Plumblem
 
 Submitted by: Yu-Cheng Lin
+Presenter: Kai Chieh Liu
 
 ## User Stories
 Plumblem is a platform for instant needs for house fixing by providing online plumbers to these struggling customers.

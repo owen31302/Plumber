@@ -58,29 +58,12 @@ module.exports = function (app) {
         });
 
         var worker = {
-            "name" : docs.firstname,
-            "skill":  docs.skill,
-            "rating" : docs.rating,
+            "name" : "The Rock",
+            "skill":  "Toilet Expert",
+            "rating" : "4.8",
             "lat" : "37.354107",
             "log" : "-121.955238"
         };
         res.send(worker);
     });
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

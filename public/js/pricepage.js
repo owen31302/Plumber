@@ -3,6 +3,7 @@
  */
 
 $(document).ready(function(){
+
     $.get('/api/work/:problem/:zipcode',function (data, status) {
         var i ;
         document.getElementById("waitss").innerHTML = Math.floor((Math.random()*50)+1)+"min";
@@ -17,5 +18,6 @@ $(document).ready(function(){
                 }
             });
         }
+
     })
 });

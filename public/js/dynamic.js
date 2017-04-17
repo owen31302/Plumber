@@ -54,5 +54,10 @@ function fadeQuer(){
     window.location.href='./price.html';
 
 }
+function toregist() {
+    window.location.href='./registerpage.html';
+}
 
-
+function tologin() {
+    window.location.href='./loginpage.html';
+}

@@ -1,4 +1,8 @@
-
+.forget{
+    text-decoration: underline;
+    text-align: center;
+    color: blue;
+}
 
 body{
 

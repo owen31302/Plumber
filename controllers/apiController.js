@@ -5,7 +5,6 @@ var Worker = require('../models/workerModel');
 var Work = require('../models/workModel');
 var Data;
 var DataW;
-var ab;
 module.exports = function (app) {
 
     // app.get('/api/', function (req, res) {
@@ -46,7 +45,6 @@ module.exports = function (app) {
                 "cost" : docs.cost,
                 "time" : docs.time,
                 "preSelec" : req.params.problem,
-                "asaburu" : ab
             };
             Data = result;
             res.send(result);
@@ -70,7 +68,7 @@ module.exports = function (app) {
                         "name" : docs.firstname + " " +docs.lastname,
                         "skill": docs.skill ,
                         "rating" : docs.rating,
-                        "mostrecentrw" : docs.review,
+                        "contact" : docs.phone,
                         "lat" : "37.354107",
                         "log" : "-121.955238"
                     };

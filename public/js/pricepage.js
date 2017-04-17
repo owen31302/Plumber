@@ -36,7 +36,7 @@ $(document).ready(function(){
                     document.getElementById(key).innerHTML= value + "  USD";
                 }
                 else if(key == "time"){
-                    document.getElementById(key).innerHTML= value + "  hr";
+                    document.getElementById(key).innerHTML= value + "  (hr)";
                 }
                 else if(key =="preSelec"){
                     document.getElementById(key).innerHTML= value;

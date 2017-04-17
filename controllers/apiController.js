@@ -4,6 +4,7 @@
 var Worker = require('../models/workerModel');
 var Work = require('../models/workModel');
 var Data;
+var DataW;
 var ab;
 module.exports = function (app) {
 
@@ -22,6 +23,9 @@ module.exports = function (app) {
     app.get('/api/Pre/', function(req,res){
         res.send(Data);
     });
+    app.get('/api/PreW/', function (req,res) {
+        res.send(DataW);
+    });
 
     app.get('/api/works/', function (req, res) {
         Work.find({}, 'work', function (err, docs) {
@@ -38,17 +42,15 @@ module.exports = function (app) {
             console.log(docs.cost);
             console.log(docs);
             console.log(docs.skill);
+            var result = {
+                "cost" : docs.cost,
+                "time" : docs.time,
+                "preSelec" : req.params.problem,
+                "asaburu" : ab
+            };
+            Data = result;
+            res.send(result);
         });
-        var result = {
-            // "cost" : docs.cost,
-            // "time" : docs.time
-            "preSelec" : req.params.problem,
-            "cost" : "20",
-            "time" : "5",
-            "asaburu" : ab
-        };
-        Data = result;
-        res.send(result);
     });
 
     app.get( '/api/worker', function (req, res) {
@@ -63,18 +65,29 @@ module.exports = function (app) {
             Worker.findOne().skip(random).exec(
                 function (err, docs) {
                     // Tada! random user
-                    console.log(docs)
+                    console.log(docs);
+                    var worker = {
+                        "name" : docs.firstname + " " +docs.lastname,
+                        "skill": docs.skill ,
+                        "rating" : docs.rating,
+                        "mostrecentrw" : docs.review,
+                        "lat" : "37.354107",
+                        "log" : "-121.955238"
+                    };
+                    DataW = worker;
+                    res.send(worker);
                 })
+
         });
 
-        var worker = {
-            "name" : "The Rock",
-            "skill":  "Toilet Expert",
-            "rating" : "4.8",
-            "lat" : "37.354107",
-            "log" : "-121.955238"
-        };
-        // Data = worker;
-        res.send(worker);
+        // var worker = {
+        //     "name" : "The Rock",
+        //     "skill":  "Toilet Expert",
+        //     "rating" : "4.8",
+        //     "lat" : "37.354107",
+        //     "log" : "-121.955238"
+        // };
+        // // Data = worker;
+        // res.send(worker);
     });
 };
